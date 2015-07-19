@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e8e8e8 url("images/body-bg.jpg") repeat scroll 0 0;
+    font-family: "pt Sans";
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "pt Sans";
+}
+
+img {
+    border: none;
+}
+
+main-div {
+    background-color: #E9E9E9;
+    overflow: hidden;
+    width: 100%;
+    min-width: 200px;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0) url("images/header-bg.jpg") no-repeat scroll center top / 100% 91px;
+    border-bottom: 5px solid #B2B2B2;
+    margin-bottom: 30px;
+    min-height: 91px;
+    width: 100%;
+}
+
+    .header-div {
+        background: #535353 url("images/header-top-bg.jpg") repeat scroll 0 0;
+    }
+
+    .header-central {
+        font-family: "pt Sans";
+        margin: 0 auto;
+        max-width: 980px;
+        overflow: hidden;
+    }
+
+    .logo {
+        color: white;
+        background: #F26C4F;
+        float: left;
+        font-size: 28px;
+        padding: 0 65px 5px 30px;
+        text-decoration: none;
+    }
+
+    .logo sup {
+        color: #f5937e;
+        //opacity: 0.3;
+        line-height: 0;//! 
+    }
+
+    .header-central ul {
+        float: left;
+        list-style: none;
+        margin-left: 15px;
+        overflow: hidden;
+    }
+
+    .header-central ul li {
+        float: left;
+    }
+
+    .header-central ul li a {
+        color: white;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 11px 15px 12px;
+        text-decoration: none;
+    }
+
+    .header-central ul li a:hover {
+        text-decoration: underline;
+    }
+
+.content-div {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 980px;//! 
+}
+
+.content-list {
+    float: left;
+    width: 64.28%;//66.86 
+}
+
+.blog-item {
+    margin-bottom: 30px;
+    //margin-right: 25px; 
+}
+
+.blog-top {
+    background-color: white;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 8px;
+    padding: 6px;
+    position: relative;
+}
+
+.blog-img {
+    max-width: 100%;
+}
+.blog-scl {
+    bottom: 15px;
+    left: 50px;
+    position: absolute;
+}
+
+    .blog-scl div {
+        margin-bottom: 10px;
+    }
+
+.blog-bottom {
+    background-color: white;
+    border: 1px solid #d7d7d7;
+    padding: 35px;
+    position: relative;
+}
+
+    .blog-arrow {
+        background: url("images/post-str.png") no-repeat scroll 0 0;
+        display: block;
+        height: 17px;
+        left: 35px;
+        position: absolute;
+        top: -17px;
+        width: 31px;
+    }
+
+    .blog-bottom h1 {
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    .blog-bottom h1 a {
+        color: #3a3e3f;
+        text-decoration: none;
+    }
+
+    .blog-bottom h1 a:hover {
+        text-decoration: underline;
+    }
+
+    .blog-bottom span {
+        color: #aeaeae;
+        display: block;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .blog-subheader {
+        color: #f26c4f;
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    .blog-message {
+        color: #959595;
+        line-height: 2;
+    }
+
+.content-rmenu {
+    float: right;
+    width: 33.14%;
+    padding-bottom: 30px;
+}
+
+.menu {
+    background-color: white;
+    border: 1px solid #D7D7D7;
+    margin-bottom: 30px;
+    padding: 40px 30px 25px;
+}
+
+    .menu h2 {
+        color: #2e2d2d;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .menu ul {
+        font-family: "pt Sans";
+        font-size: 15px;
+        list-style: outside none none;
+    }
+
+    .menu ul li {
+        border-bottom: 1px dotted #CDCDCD;
+        padding: 5px 0;
+    }
+
+    .menu ul li a {
+        background: url("images/widget-a1.jpg") left no-repeat;
+        color: #6f6f6f;
+        line-height: 1.3;
+        text-decoration: none;
+        padding-left: 30px;
+    }
+
+    .menu ul li a:hover {
+        background: url("images/widget-a2.jpg") left no-repeat;
+        color: #f26c4f;
+    }
+
+
+    .recent-posts ul {
+    }
+
+    .recent-posts ul li {
+        border: none;
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    .recent-posts ul li p {
+        background: url("images/recent-bg.jpg") left 7px no-repeat;
+        padding-left: 15px;
+    }
+
+    .recent-posts ul li span {
+        color: #7e7e7e;
+        display: block;
+        line-height: 1.5;
+    }
+
+    .recent-posts ul li a {
+        background: none;
+        color: #3a3a3a;
+        line-height: 1.5;
+        padding-left: 0;
+    }
+
+    .recent-posts ul li a:hover {
+        background: none;
+        color: #3a3a3a;
+        text-decoration: underline;
+    }
+
+    .menu div {
+        margin-bottom: 25px;
+    }
+
+    .adv {
+        text-align: center;
+    }
+
+
+.paginator {
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+
+    .paginator ul {
+        overflow: hidden;
+        list-style: none;
+    }
+
+    .paginator ul li {
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+
+    .paginator li a {
+        color: #3a3e3f;
+        display: block;
+        padding: 3px 7px;
+        text-decoration: none;
+    }
+
+    .paginator li a:hover {
+        text-decoration: underline;
+    }
+
+    .paginator li a.active-page {
+        background: #F26C4F;
+        color: white;
+    }
+
+.footer {
+    background: #343434;
+    padding: 30px 0;
+}
+
+.footer-div {
+    font-family: "pt Sans";
+    margin: 0 auto;
+    max-width: 980px;
+    overflow: hidden;
+}
+
+.footer-left {
+    float: left;
+    width: 66.84%;
+}
+
+    .footer-left p {
+        color: white;
+        font-size: 12px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    .copy {
+        opacity: 0.5;
+    }
+
+.footer-right {
+    float: right;
+    text-align: center;
+    width: 33.14%;
+}
+
+.footer-right a {
+    margin-right: 10px;
+}
